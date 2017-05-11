@@ -5,11 +5,11 @@ include '../lib/conexion.php';
 $conn=new Conexion;
 
 if ($conn->conectar()){
-$nom=$_POST["nombre"];
-$totusd=$_POST["totalusd"];
-$ano=$_POST["ano"];
+    $nom=$_POST["nombre"];
+    $totusd=$_POST["totalusd"];
+    $ano=$_POST["ano"];
 
-$sql="INSERT INTO productos(nombre,totalusd,ano) values('$nom','$totalusd','$ano')";
+    $sql="INSERT INTO productos(nombre,totalusd,ano) values('$nom','$totalusd','$ano')";
        echo $sql;
 }
 
