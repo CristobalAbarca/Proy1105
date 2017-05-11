@@ -10,6 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <form method="post" action="modulos/prod_agregar.php"
         <?php
         // put your code here
         ?>
